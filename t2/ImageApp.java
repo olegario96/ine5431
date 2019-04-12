@@ -215,16 +215,16 @@ public class ImageApp {
 		ia.apresentaImagem(new JFrame("imgJPEG"), imgJPEG);
 
 		// Question 1
-		// BufferedImage lowQualityImage = reduceQuality(imgJPEG);
-		// ia.apresentaImagem(new JFrame("lowQualityImage"), lowQualityImage);
+		BufferedImage lowQualityImage = reduceQuality(imgJPEG);
+		ia.apresentaImagem(new JFrame("lowQualityImage"), lowQualityImage);
 
 		// Question 2
-		// BufferedImage shadesOfGrey = shadesOfGrey(imgJPEG);
-		// ia.apresentaImagem(new JFrame("shadesOfGrey"), shadesOfGrey);
+		BufferedImage shadesOfGrey = shadesOfGrey(imgJPEG);
+		ia.apresentaImagem(new JFrame("shadesOfGrey"), shadesOfGrey);
 
 		// Question 3
-		// BufferedImage binaryImage = binaryImage(imgJPEG);
-		// ia.apresentaImagem(new JFrame("binaryImage"), binaryImage);
+		BufferedImage binaryImage = binaryImage(imgJPEG);
+		ia.apresentaImagem(new JFrame("binaryImage"), binaryImage);
 
 		// Question 4
 		BufferedImage splitImageRed = splitImageRed(imgJPEG);
