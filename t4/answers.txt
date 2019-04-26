@@ -1,0 +1,11 @@
+9.1 Compreensão de dados, não existe entre esses dois arquivos, pois ao comparar o tamanho deles, ambos possuem o mesmo tamanho.
+
+9.2 O valor de PSNR foi 112.13 dB. Sim houve perda de dados durante essa transformação. Essa perda decorre do fato de que na escala RGB trabalha-se somente com inteiros de 0 a 255, enquanto que no padrão YCbCr estamos trabalhando com ponto flutuante, o que, eventualmente, acarreta em falhas de arredondamento.
+
+12.3 A taxa de compressão é de 6:5. A compressão de Huffman, baseia-se em uma análise estatística. Após analisar os símbolos do arquivo e seus respectivos histogramas, uma árvore binária é montada, onde os nodos folhas são os símbolos e frequência, enquanto que os nodos intermediários são sempre a soma do nível inferior. Nesse sentido, ao se construir o nodo raiz da árvore, o valor 0 é sempre atribuído para a parte da subárvore com valores de maior frequência, enquanto que o valor 1 é atribuído para o outro lado. Dessa forma, os valores que mais se repetem, terão em seus símbolos, muitos 0's e poucos 1's. Os valores para os símbolos não possuem tamanho fixo, por este algoritmo, uma vez que a árvore construída não é balanceada.
+
+12.4 O valor de PSNR foi 112.13 dB. Sim houve perda de dados durante essa transformação. A perda no caso não vem por causa da compressão de Huffman e sim devido a compressão de RGB para YCbCr, que já foi explicada no item 9.2.
+
+15.5 A taxa de compressão, em relação a CUIF.1, é de 112/192
+
+15.6 O valor de PSNR foi de 148.4917379181157 dB.
