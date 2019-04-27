@@ -6,6 +6,8 @@
 
 12.4 O valor de PSNR foi 112.13 dB. Sim houve perda de dados durante essa transformação. A perda no caso não vem por causa da compressão de Huffman e sim devido a compressão de RGB para YCbCr, que já foi explicada no item 9.2.
 
-15.5 A taxa de compressão, em relação a CUIF.1, é de 112/192
+15.5 A taxa de compressão, em relação a CUIF.1, é de 12:7.
 
 15.6 O valor de PSNR foi de 148.4917379181157 dB.
+
+15.7 Foi o JazzMan. Isso aconteceu porque a foto do JazzMan é menor do que a de Lean
